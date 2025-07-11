@@ -1,0 +1,60 @@
+* {
+    font-family: "roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #dfe1e6;
+}
+
+/* Header Style */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mainbar */
+.mainbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.main_links ul {
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+/* Content for Header */
+.head_content {
+    display: flex;
+}
+
+.info, .main_links {
+    font-size: 18px;
+    color: #dfe1e6;
+}
+
+#top {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
