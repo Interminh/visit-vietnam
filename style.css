@@ -161,7 +161,7 @@ a {
 /* Call to Action Style */
 .action {
     display: flex;
-    padding: 150px 75px;
+    padding: 100px 75px;
     justify-content: center;
     align-items: center;
 }
@@ -187,4 +187,17 @@ a {
     padding: 15px;
     background-color: aquamarine;
     border-radius: 25px;
+}
+
+/* Copyright Style */
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 75px;
+    background-color: #1F2937;
+}
+
+.copyright .text {
+    color:#E5E7EB
 }
