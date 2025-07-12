@@ -1,3 +1,4 @@
+/* Universal Style */
 * {
     font-family: "roboto", sans-serif;
 }
@@ -15,7 +16,6 @@ a {
 
 
 /* Header Style */
-
 .header {
     background-color: #1F2937;
     display: flex;
@@ -91,4 +91,45 @@ a {
 #bottom button {
     padding: 5px;
     background-color: aquamarine;
+}
+
+/* Information Style */
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 75px; 
+    gap: 50px;
+}
+
+.list_title {
+    font-size: 36px;
+    color: #1F2937
+    font-weight: 900px;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 25%
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
 }
