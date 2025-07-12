@@ -104,7 +104,7 @@ a {
 
 .list_title {
     font-size: 36px;
-    color: #1F2937
+    color: #1F2937;
     font-weight: 900px;
 }
 
@@ -132,4 +132,27 @@ a {
 
 .text {
     text-align: center;
+}
+
+/* Quote Style */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 75px;
+    background-color: #E5E7EB;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
 }
