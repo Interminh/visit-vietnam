@@ -13,6 +13,20 @@ temple-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rainforestcr
 
 beach-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.paradisevietnam.com%2Fen%2Ftravel-guides%2Fplaces-to-visit-in-halong-bay&psig=AOvVaw3LqOfZN5yRlsH-jq43aZDq&ust=1752372574593000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIisudmeto4DFQAAAAAdAAAAABAE
 
+hanoi-skyline-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.asiatoptravel.com%2FVNews%2F2391_Some_Beautiful_Sunset_Spots_in_Hanoi.html&psig=AOvVaw2hOZcszV7kjFedHyDFHUJZ&ust=1752386447702000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCLjqwK_Sto4DFQAAAAAdAAAAABAK
+
+hanoi-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fhanoi&psig=AOvVaw3Kj_dvpJOAEhokCdpRRec1&ust=1752386259513000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCMCGrNbRto4DFQAAAAAdAAAAABAE
+
+ho-chi-minh-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fguide.michelin.com%2Fmo%2Fen%2Farticle%2Ftravel%2F2-days-in-ho-chi-minh-city&psig=AOvVaw34ksOHTzw1SHTESUTOjpor&ust=1752386639000000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCMCB1ovTto4DFQAAAAAdAAAAABAE
+
+da-nang-image: https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqTf2UXgfsaSfQ_VMuZw-jXIJKabpV4FAky-DR8tkKjCR8XkZ7dHMykxJUyyDwmEb_cVBZcPjuuKADSBT-rOn_XhxwHhCyyE-4ghEy4RsnXvSF_Y5pSPPqoS9Bqzscfwp7awMdYoQ=s680-w680-h510-rw
+
+halong-bay-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fvietnam.travel%2Fthings-to-do%2Fexperience-the-feeling-of-living-at-a-heritage-site&psig=AOvVaw206aeafRoMdQETXkLK_IZs&ust=1752386916733000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj9lY_Uto4DFQAAAAAdAAAAABAE
+
+hoi-an-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwhc.unesco.org%2Fen%2Flist%2F948%2F&psig=AOvVaw2LS-cNTpvKMsVcl45O6vW_&ust=1752386816470000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCPCC-N_Tto4DFQAAAAAdAAAAABAJ
+
+sapa-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Ftravel%2Fdestinations%2Frice-terraces-of-sapa-in-vietnam-is-a-good-reason-to-go-see-the-country%2Farticleshow%2F100795741.cms&psig=AOvVaw2VASzbjiwY3hYqEYlUoTjZ&ust=1752386996476000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMi6xrXUto4DFQAAAAAdAAAAABAE
+
 
 
 

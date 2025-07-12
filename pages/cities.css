@@ -1,0 +1,273 @@
+/* Import base styles (you can copy common styles from your main CSS) */
+* {
+    font-family: "roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #dfe1e6;
+}
+
+/* Header Style (same as main site) */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 75px;
+}
+
+.mainbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.main_links ul {
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.head_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 0;
+    margin: 30px;
+}
+
+.info, .main_links {
+    font-size: 18px;
+    color: #dfe1e6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#top {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#bottom button {
+    padding: 10px 20px;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Cities Grid Styles */
+.cities-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 75px;
+    gap: 40px;
+}
+
+.cities-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cities-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.city-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.city-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.city-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.city-info {
+    padding: 20px;
+}
+
+.city-info h3 {
+    font-size: 24px;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+.city-description {
+    color: #4B5563;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: #E5E7EB;
+    color: #374151;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.city-button {
+    background-color: #1F2937;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.city-button:hover {
+    background-color: #374151;
+}
+
+/* Comparison Section */
+.comparison-section {
+    background-color: #F9FAFB;
+    padding: 50px 75px;
+}
+
+.comparison-title {
+    font-size: 28px;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.comparison-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.comparison-card h4 {
+    color: #1F2937;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.comparison-card p {
+    color: #3B82F6;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comparison-card small {
+    color: #6B7280;
+}
+
+/* Call to Action (same as main site) */
+.action {
+    display: flex;
+    padding: 150px 75px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.foundation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1F2937;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.action_text {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.action_button button {
+    padding: 15px 30px;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #9CA3AF;
+}
