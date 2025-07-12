@@ -1,0 +1,363 @@
+/* Base styles */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #dfe1e6;
+}
+
+
+/* Header styles (same as other pages) */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 75px;
+}
+
+.mainbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.main_links ul {
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.head_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 0;
+    margin: 30px;
+}
+
+.info, .main_links {
+    font-size: 18px;
+    color: #dfe1e6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#top {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#bottom button {
+    padding: 15px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* Packages Overview */
+.packages-overview {
+    padding: 50px 75px;
+    background-color: #F9FAFB;
+}
+
+.overview-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.city-package {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.package-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.package-header img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.package-info h2 {
+    color: #1F2937;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.package-duration {
+    color: #3B82F6;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.package-description {
+    color: #4B5563;
+    line-height: 1.6;
+}
+
+.package-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 0 20px 20px;
+}
+
+.highlight-item {
+    background-color: #F3F4F6;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #374151;
+    font-size: 14px;
+}
+
+/* Pricing Section */
+.pricing-section {
+    padding: 80px 75px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.pricing-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pricing-subtitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+}
+
+.pricing-card {
+    background: white;
+    color: #1F2937;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card.popular {
+    transform: scale(1.05);
+    border: 3px solid #FFD700;
+}
+
+.popular-badge {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.plan-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 5px;
+}
+
+.plan-subtitle {
+    color: #6B7280;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3B82F6;
+    margin-bottom: 5px;
+}
+
+.price-period {
+    color: #6B7280;
+    margin-bottom: 30px;
+}
+
+.features {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.feature {
+    padding: 8px 0;
+    border-bottom: 1px solid #F3F4F6;
+    color: #374151;
+}
+
+.feature:last-child {
+    border-bottom: none;
+}
+
+.pricing-button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, #3B82F6, #1E40AF);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pricing-button:hover {
+    background: linear-gradient(45deg, #1E40AF, #1E3A8A);
+    transform: translateY(-2px);
+}
+
+.pricing-notes {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.pricing-notes p {
+    margin-bottom: 10px;
+}
+
+/* Call to Action */
+.action {
+    display: flex;
+    padding: 150px 75px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.foundation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1F2937;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.action_text {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.action_button button {
+    padding: 15px 30px;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #9CA3AF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .package-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .package-header img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-card.popular {
+        transform: none;
+    }
+}
+
