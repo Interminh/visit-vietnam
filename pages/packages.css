@@ -342,6 +342,46 @@ a {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header {
+        padding: 0px 20px;
+    }
+    
+    .mainbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .logo {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .main_links ul {
+        justify-content: center;
+        margin-right: 0;
+        gap: 15px;
+    }
+    
+    .head_content {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        gap: 30px;
+    }
+    
+    #top {
+        font-size: 32px;
+    }
+    
+    .cover img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .packages-overview {
+        padding: 30px 20px;
+    }
+    
     .package-header {
         flex-direction: column;
         text-align: center;
@@ -352,12 +392,43 @@ a {
         max-width: 300px;
     }
     
+    .pricing-section {
+        padding: 50px 20px;
+    }
+    
     .pricing-grid {
         grid-template-columns: 1fr;
     }
     
     .pricing-card.popular {
         transform: none;
+    }
+    
+    .overview-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    #top {
+        font-size: 24px;
+    }
+    
+    .main_links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .pricing-title {
+        font-size: 28px;
+    }
+    
+    .price {
+        font-size: 36px;
+    }
+    
+    .package-highlights {
+        grid-template-columns: 1fr;
     }
 }
 

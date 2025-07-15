@@ -271,3 +271,99 @@ a {
     text-align: center;
     color: #9CA3AF;
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        padding: 0px 20px;
+    }
+    
+    .mainbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .logo {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .main_links ul {
+        justify-content: center;
+        margin-right: 0;
+        gap: 15px;
+    }
+    
+    .head_content {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        gap: 30px;
+    }
+    
+    #top {
+        font-size: 32px;
+    }
+    
+    .cover img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .cities-grid {
+        padding: 30px 20px;
+    }
+    
+    .cities-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .comparison-section {
+        padding: 30px 20px;
+    }
+    
+    .comparison-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .action {
+        padding: 50px 20px;
+    }
+    
+    .foundation {
+        padding: 30px 20px;
+    }
+    
+    .action_text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #top {
+        font-size: 24px;
+    }
+    
+    .main_links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .cities-title {
+        font-size: 28px;
+    }
+    
+    .city-card {
+        margin: 0 10px;
+    }
+    
+    .comparison-title {
+        font-size: 20px;
+    }
+    
+    .action_text {
+        font-size: 16px;
+    }
+}
